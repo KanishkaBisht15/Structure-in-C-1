@@ -1,0 +1,22 @@
+#include <stdio.h>
+struct Employee
+{
+	char name[40];
+	int employee_id;
+	
+};
+main()
+{
+	struct Employee b1;
+	printf("\nEnter employee id : \n");
+	scanf("%d",&b1.employee_id);
+	printf("\nEnter employee name : \n");
+	scanf("%s",b1.name);
+
+	
+	printf("\n 1st employee details are : \n");
+	printf("Employee id :%d",b1.employee_id);
+	printf("\nEmployee name : %s",b1.name);
+
+	
+}
