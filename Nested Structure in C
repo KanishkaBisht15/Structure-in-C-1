@@ -1,0 +1,9 @@
+struct complex {
+  int imag;
+  float real;
+};
+
+struct number {
+  struct complex comp;
+  int integers;
+} num1, num2;
